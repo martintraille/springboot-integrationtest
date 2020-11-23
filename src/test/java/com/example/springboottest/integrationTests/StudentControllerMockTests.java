@@ -1,4 +1,4 @@
-package com.example.springboottest;
+package com.example.springboottest.integrationTests;
 
 import com.example.springboottest.model.Student;
 import com.example.springboottest.service.StudentRepository;

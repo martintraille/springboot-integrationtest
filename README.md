@@ -7,7 +7,10 @@ In this project, we will show how Spring boot and spring data can be used to int
 ## If you want to start the application:
 ```java -jar target/springboottest-0.0.1-SNAPSHOT.jar```
 
-## Go to test folder and check all the test classes to understand the Integration Test implementation.
+## Tasks
+1. Make all the tests Fail by changing the expected values
+2. Make all tests pass
+3. Extend the service to add descriptions for each Student and verify with tests
 
 
 

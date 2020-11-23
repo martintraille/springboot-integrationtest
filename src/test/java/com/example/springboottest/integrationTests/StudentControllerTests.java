@@ -1,4 +1,4 @@
-package com.example.springboottest;
+package com.example.springboottest.integrationTests;
 
 import org.junit.Before;
 import org.junit.Test;
