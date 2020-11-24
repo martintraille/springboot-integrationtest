@@ -8,15 +8,7 @@ In this project, we will show how Spring boot and spring data can be used to int
 ```java -jar target/springboottest-0.0.1-SNAPSHOT.jar```
 
 ## Tasks
-1. Fix the broken Unit test
-2. Make all the tests Fail by changing the expected values
-3. Make all tests pass
 
-
-
-
-
-
-
-
-
+1. Make all the tests Fail by changing the expected values
+2. Make all tests pass
+3. Extend the service to add descriptions for each Student and verify with tests
