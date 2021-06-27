@@ -9,6 +9,13 @@ In this project, we will show how Spring boot and spring data can be used to int
 
 ## Tasks
 
-1. Make all the tests Fail by changing the expected value
-2. Make all tests pass
-3. Extend the service to add descriptions for each Student and verify with tests
+The StudentControllerTests.java file is failing to compile 
+and some tests within that file are also failing.
+
+
+1. Update the StudentControllerTests.java file to fix the compilation issues
+2. Make all tests pass within the StudentControllerTests.java
+
+## Tasks
+To run tests:
+```mvn -Dtest=StudentControllerTests test```

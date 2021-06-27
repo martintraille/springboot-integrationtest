@@ -15,6 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.Objects;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
@@ -39,14 +40,14 @@ public class StudentControllerTests {
         ResponseEntity<String> response = restTemplate.exchange(createURLWithPort("/students"), HttpMethod.POST, entity, String.class);
         String actual = Objects.requireNonNull(response.getHeaders().get(HttpHeaders.LOCATION)).get(0);
 
-        assertTrue(actual.contains("/students"));
+        assertFalse(actual.contains("/students;"));
     }
 
     @Test
     public void testRetrieveStudent() throws Exception {
         HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-        ResponseEntity<String> response = restTemplate.exchange(createURLWithPort("/students/1"), HttpMethod.GET, entity, String.class);
-        String expected = "{\"id\":1,\"name\":\"Paddy Fox\",\"description\":\"Class 9-5\"}";
+        ResponseEntity<String> response = restTemplate.exchange(createURLWithPort("/students/2"), HttpMethod.GET, entity, String.class);
+        String expected = "{\"id\":2,\"name\":\"Paddy Fox\",\"description\":\"Class 9-6\"}";
 
         JSONAssert.assertEquals(expected, response.getBody(), false);
     }
