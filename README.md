@@ -16,6 +16,11 @@ and some tests within that file are also failing.
 1. Update the StudentControllerTests.java file to fix the compilation issues
 2. Make all tests pass within the StudentControllerTests.java
 
+#Bonus
+Extend the StudentControllerTests file to include startYear as integer and make sure it fails
+Expand the Service to include a startYear field and add make sure all tests pass
+Update the StudentControllerMockTests file to check on the name, description and startYear
+
 ## Tasks
 To run tests:
 ```mvn -Dtest=StudentControllerTests test```
