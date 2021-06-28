@@ -17,9 +17,10 @@ and some tests within that file are also failing.
 2. Make all tests pass within the StudentControllerTests.java
 
 #Bonus
-Extend the StudentControllerTests file to include startYear as integer and make sure it fails
-Expand the Service to include a startYear field and add make sure all tests pass
-Update the StudentControllerMockTests file to check on the name, description and startYear
+1. Extend the StudentControllerTests file to include startYear as integer and make sure it fails.
+2. Expand the Service to include a startYear field and make sure all tests pass.
+3. Update the StudentControllerMockTests file to check on the name, description and startYear.
+
 
 ## Tasks
 To run tests:
