@@ -8,6 +8,7 @@ In this project, we will show how Spring boot and spring data can be used to int
 ```java -jar target/springboottest-0.0.1-SNAPSHOT.jar```
 
 ## Tasks
+BEFORE STARTING, CHECKOUT A NEW BRANCH AND NAME IT: `yourFirstName-surname` eg. `paddy-fox`.
 
 The StudentControllerTests.java file is failing to compile 
 and some tests within that file are also failing.
